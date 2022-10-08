@@ -3,7 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import './assets/css/vendor/bootstrap.min.css'
+// import './assets/fonts/gordita-fonts.css'
+import './assets/css/vendor/icofont.min.css'
+// import './assets/css/plugins/lightgallery.min.css'
+import './assets/css/plugins/swiper-bundle.min.css'
+import './assets/css/plugins/aos.css'
+import './assets/css/style.css'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
