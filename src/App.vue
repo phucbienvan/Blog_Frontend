@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+
     <body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
       <Header></Header>
       <div id="main-wrapper">
@@ -39,6 +40,52 @@
         </div>
       </div>
       <!--====================  End of search overlay  ====================-->
+
+      <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+        <div class="mobile-menu-overlay__inner">
+            <div class="mobile-menu-overlay__header">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-8">
+                            <!-- logo -->
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo/logo.png" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-4">
+                            <!-- mobile menu content -->
+                            <div class="mobile-menu-content text-end">
+                                <span class="mobile-navigation-close-icon" id="mobile-menu-close-trigger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu-overlay__body">
+                <nav class="offcanvas-navigation">
+                    <ul>
+                      <li>
+                        <router-link to="/">Home</router-link>
+                      </li>
+                      <li>
+                        <router-link to="/about">About</router-link>
+                      </li>
+                        <li><a href="about-us.html"><span>About</span></a></li>
+                        <li class="has-children"><span class="menu-expand"><i></i></span>
+                            <a href="#">Category</a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li><a href="#"><span>Category List</span></a> </li>
+                                <li><a href="#"><span>Category Grid</span></a> </li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><span>Write Post</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
     </body>
   </div>
 </template>

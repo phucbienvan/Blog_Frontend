@@ -1075,22 +1075,6 @@
           </div>
           <!-- Trending Article Area End -->
 
-          <!-- Bottom Add Banner Area Start -->
-          <div class="bottom-add-banner-area section-space--pb_80">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12">
-                  <a href="#" class="bottom-add-banner-box aos-init" data-aos="fade-up">
-                    <img src="@/assets/images/banners/bottom-add-banner.jpg" alt="">
-                    <h6 class="bottom-add-text">All Food Item
-                      <span>50% Off</span>
-                    </h6>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div> <!-- Bottom Add Banner Area End -->
-
         </div>
 </template>
 <script>
